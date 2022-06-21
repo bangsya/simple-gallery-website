@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery 2</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="containerJudul">
+                <div class="judul">
+                    <h1>My Website Gallery </h1>
+                    <h1 class="animasi1">2</h1>
+                    <div class="clear"></div>
+                </div>
+                <p>Ini adalah website gallery new responsive</p>
+            </div>
+            <div class="tombolSide">
+                <a href="#sidebar"><img src="img/navigasi/tombolSide.png" alt=""></a>
+            </div>
+        </header>
+        <!-- Akhir Header -->
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <a href="#" class="close">X</a>
+            <ul>
+                <li><a href="#fotoSolo">Natas Angin foto solo</a></li>
+                <li><a href="#fotoBersama">Natas Angin foto Bersama</a></li>
+            </ul>
+        </div>
+        <!-- Akhir sidebar -->
+
+        <!-- Content -->
+        <div class="content">
+            <ul>
+                <li>
+                    <h3 id="fotoSolo">Foto Natas Angin Solo</h3>
+                    <div class="containerImage">
+                        <div class="isiImage">
+                            <div class="gambar">
+                                <a href="#fullFoto1"><img src="img/full/foto1.jpg" alt="Foto Solo Syafi'i" id="foto1"></a>
+                            </div>
+                            <div class="caption">
+                                <p>Muhammad Syafi'i Solo Foto </p>
+                            </div>
+                        </div>
+                        <div class="isiImage">
+                            <div class="gambar">
+                                <a href="#fullFoto3"><img src="img/full/foto3.jpg" alt="foto solo" id="foto3"></a>
+                            </div>
+                            <div class="caption">
+                                Muhammad Syafi'i
+                            </div>
+                        </div>
+                        <div class="isiImage">
+                            <div class="gambar">
+                                <a href="#fullFoto4"><img src="img/full/foto4.jpg" alt="foto solo" id="foto4"></a>
+                            </div>
+                            <div class="caption">
+                                <p>Muhammad Syafi'i</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3 id="fotoBersama">Foto Natas Angin Bersama</h3>
+                    <div class="containerImage">
+                        <div class="isiImage">
+                            <div class="gambar">
+                                <a href="#fullFoto2"><img src="img/full/foto2.jpg" alt="Foto Solo Syafi'i" id="foto2"></a>
+                            </div>
+                            <div class="caption">
+                                <p>Muhammad Syafi'i Solo Foto </p>
+                            </div>
+                        </div>
+                        <div class="isiImage">
+                            <div class="gambar">
+                                <a href="#fullFoto5"><img src="img/full/foto5.jpg" alt="foto solo" id="foto5"></a>
+                            </div>
+                            <div class="caption">
+                                Muhammad Syafi'i
+                            </div>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Akhrir Content -->
+
+        <!-- Rightbar -->
+        <div class="rightbar">
+            <img src="img/thumbs/foto1.jpg" alt="">
+            <p>Perkenalkan Nama saya Muhammad Syafi'i dari Kudus. Ini adalah website gallery yang kedua saya. Website ini sangat sederhana.</p>
+            <div class="clear"></div>
+        </div>
+        <!-- Akhir Rightbar -->
+
+        <!-- footer -->
+        <div class="footer">
+            <p>Dibuat pada tanggal 16 Juni 2022 oleh Muhammad Syafi'i</p>
+        </div>
+        <!-- akhir Footer -->
+    </div>
+
+
+    <!-- Untuk Overlay -->
+    <!-- Foto Solo -->
+    <div class="overlay" id="fullFoto1">
+        <a href="#fullFoto4"><img src="img/navigasi/prev.png" alt="prev" class="prev"></a>
+        <div class="containerImgOverlay">
+            <a href="#foto1" class="close">X</a>
+            <img src="img/full/foto1.jpg" alt="Foto satu">
+            <span>Muhammad Syafi'i Foto Solo</span>
+        </div>
+        <a href="#fullFoto3"><img src="img/navigasi/next.png" alt="next"></a>
+    </div>
+    <div class="overlay" id="fullFoto3">
+        <a href="#fullFoto1"><img src="img/navigasi/prev.png" alt="prev" class="prev"></a>
+        <div class="containerImgOverlay">
+            <a href="#foto3" class="close">X</a>
+            <img src="img/full/foto3.jpg" alt="Foto tiga">
+            <span>Muhammad Syafi'i Foto Solo</span>
+        </div>
+        <a href="#fullFoto4"><img src="img/navigasi/next.png" alt="next"></a>
+    </div>
+    <div class="overlay" id="fullFoto4">
+        <a href="#fullFoto3"><img src="img/navigasi/prev.png" alt="prev" class="prev"></a>
+        <div class="containerImgOverlay">
+            <a href="#foto4" class="close">X</a>
+            <img src="img/full/foto4.jpg" alt="Foto empat">
+            <span>Muhammad Syafi'i Foto Solo</span>
+        </div>
+        <a href="#fullFoto1"><img src="img/navigasi/next.png" alt="next"></a>
+    </div>
+
+    <!-- Foto Bersama -->
+    <div class="overlay" id="fullFoto2">
+        <a href="#fullFoto5"><img src="img/navigasi/prev.png" alt="prev" class="prev"></a>
+        <div class="containerImgOverlay">
+            <a href="#foto2" class="close">X</a>
+            <img src="img/full/foto2.jpg" alt="Foto dua">
+            <span>Muhammad Syafi'i Foto Bersama</span>
+        </div>
+        <a href="#fullFoto5"><img src="img/navigasi/next.png" alt="next"></a>
+    </div>
+    <div class="overlay" id="fullFoto5">
+        <a href="#fullFoto2"><img src="img/navigasi/prev.png" alt="prev" class="prev"></a>
+        <div class="containerImgOverlay">
+            <a href="#foto5" class="close">X</a>
+            <img src="img/full/foto5.jpg" alt="Foto lima">
+            <span>Muhammad Syafi'i Foto Solo</span>
+        </div>
+        <a href="#fullFoto2"><img src="img/navigasi/next.png" alt="next"></a>
+    </div>
+    <!-- Akhir Overlay -->
+</body>
+</html>
